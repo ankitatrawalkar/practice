@@ -3,11 +3,11 @@ package in.ankitatrawalkar.leetcode;
 /*
     520. Detect Capital
  */
-public class DetectCapital {
+public class CapitalDetector {
 
     public static void main(String[] args) {
         String word = "FlaG";
-        System.out.println(DetectCapital.detectCapitalUse(word));
+        System.out.println(CapitalDetector.detectCapitalUse(word));
     }
 
     public static boolean detectCapitalUse(String word) {
