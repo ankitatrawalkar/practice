@@ -14,4 +14,5 @@ public class IPAddressDefanger {
     public static String defangIPaddr(String address) {
         return address.replace(".", "[.]");
     }
+
 }
